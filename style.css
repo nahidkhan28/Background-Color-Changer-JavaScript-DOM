@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Segoe UI;
+  background-color: #212121;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  text-align: center;
+  width: 80%;
+  margin: 100px auto 100px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 50px;
+}
+
+.button {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 5px;
+}
+
+#pink {
+  background-color: pink;
+}
+
+#black {
+  background-color: black;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
